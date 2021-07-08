@@ -65,10 +65,10 @@ h2{
     
 }
 #full_stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon,tomato);
-    border-image-slice: 1;
-    background: #fff;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,orange,#a38e68);
+  border-image-slice: 1;
+  background-color: #fff;
 }
 #baby_dev{
     border-left: 7px solid;
@@ -76,6 +76,17 @@ h2{
     border-image-slice: 1;
 }
 
-footer p{
+.footer p{
     text-align: center;
+}
+
+/* media query*/
+
+@media only screen and (max-width: 600px){
+    .half_width{
+        width: 100%;
+        margin: 20px 0;
+        
+    }
+   
 }
